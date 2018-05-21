@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{47CCFCC4-6DF9-4993-960B-F2A25C772E84}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Simplified21ToluA_6b_</RootNamespace>
+    <AssemblyName>Simplified21ToluA%286b%29</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Simplified21Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Simplified21Form.Designer.cs">
+      <DependentUpon>Simplified21Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Simplified21Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Simplified21Form.resx">
+      <DependentUpon>Simplified21Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c01.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c02.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c03.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c04.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c05.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c06.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c07.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c08.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c09.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c10.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c11.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c12.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c13.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d01.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d02.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d03.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d04.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d05.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d06.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d07.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d08.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d09.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d10.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d11.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d12.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d13.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\h01.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\h02.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\h03.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\h04.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\h05.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\h06.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\h07.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\h08.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\h09.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\h10.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\h11.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\h12.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\h13.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\s01.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\s02.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\s03.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\s04.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\s05.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\s06.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\s07.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\s08.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\s09.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\s10.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\s11.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\s12.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\s13.bmp" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -28,6 +28,7 @@ namespace Simplified21ToluA_6b_
 
         private void btnStart_Click(object sender, EventArgs e)
         {
+            int randomIndex;
             // create an empty list of card images
             List<Image> playerFirstCard = new List<Image>();
             // add elements to list
@@ -198,6 +199,7 @@ namespace Simplified21ToluA_6b_
             playerThirdCard.Add(Properties.Resources.s13);
             // set player index randomly
             Random randomFirstPlayerIndex = new Random();
+            randomIndex = randomFirstPlayerIndex.Next(0, playerFirstCard.Count-1);
             Random randomSecondPlayerIndex = new Random();
             Random randomThirdPlayerIndex = new Random();
             //

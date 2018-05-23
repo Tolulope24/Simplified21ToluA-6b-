@@ -8,3 +8,12 @@ C:\Users\Tolu\source\repos\Simplified21ToluA(6b)\Simplified21ToluA(6b)\obj\Debug
 C:\Users\Tolu\source\repos\Simplified21ToluA(6b)\Simplified21ToluA(6b)\obj\Debug\Simplified21ToluA(6b).csproj.CoreCompileInputs.cache
 C:\Users\Tolu\source\repos\Simplified21ToluA(6b)\Simplified21ToluA(6b)\obj\Debug\Simplified21ToluA(6b).exe
 C:\Users\Tolu\source\repos\Simplified21ToluA(6b)\Simplified21ToluA(6b)\obj\Debug\Simplified21ToluA(6b).pdb
+N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Adebayo, Tolulope (s448789)\Assignments\Simplified21ToluA-6b-\bin\Debug\Simplified21ToluA(6b).exe.config
+N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Adebayo, Tolulope (s448789)\Assignments\Simplified21ToluA-6b-\bin\Debug\Simplified21ToluA(6b).exe
+N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Adebayo, Tolulope (s448789)\Assignments\Simplified21ToluA-6b-\bin\Debug\Simplified21ToluA(6b).pdb
+N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Adebayo, Tolulope (s448789)\Assignments\Simplified21ToluA-6b-\obj\Debug\Simplified21ToluA(6b).csprojResolveAssemblyReference.cache
+N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Adebayo, Tolulope (s448789)\Assignments\Simplified21ToluA-6b-\obj\Debug\Simplified21ToluA_6b_.Properties.Resources.resources
+N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Adebayo, Tolulope (s448789)\Assignments\Simplified21ToluA-6b-\obj\Debug\Simplified21ToluA_6b_.frmSimplified21.resources
+N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Adebayo, Tolulope (s448789)\Assignments\Simplified21ToluA-6b-\obj\Debug\Simplified21ToluA(6b).csproj.GenerateResource.Cache
+N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Adebayo, Tolulope (s448789)\Assignments\Simplified21ToluA-6b-\obj\Debug\Simplified21ToluA(6b).exe
+N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Adebayo, Tolulope (s448789)\Assignments\Simplified21ToluA-6b-\obj\Debug\Simplified21ToluA(6b).pdb

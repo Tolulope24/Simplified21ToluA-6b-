@@ -15,44 +15,14 @@ namespace Simplified21ToluA_6b_
         public frmSimplified21()
         {
             InitializeComponent();
-        }
-
-
-        private void GenerateDeckCard(int x, int y)
-        {
-            // dynamically generate a new picture box and a new point at the given location 
-            PictureBox tmpDeck = new PictureBox();
-            Point pntCard = new System.Drawing.Point(x, y);
-            // set the location of the picture box
-            tmpDeck.Location = pntCard;
-            // assign the card to the picture box
-            tmpDeck.Image = Properties.Resources.d01;
-            // stretch the Card to the size of the picture box
-            tmpDeck.SizeMode = PictureBoxSizeMode.StretchImage;
-            // make the height and width to be the same as the card
-            tmpDeck.ClientSize = new Size(Properties.Resources.c01.Width, Properties.Resources.c01.Height);
-            // add the picture box to the form
-            this.Controls.Add(tmpDeck);
-
+            picFirstComputerCard.Hide();
+            picSecondComputerCard.Hide();
+            picThirdComputerCard.Hide();
+            picThirdPlayerCard.Hide();
 
         }
 
 
-        private void GenerateComputerDeckCards()
-        {
-            GenerateDeckCard(23, 230);
-            GenerateDeckCard(100, 230);
-            GenerateDeckCard(177, 230);
-        }
-
-        private void GeneratePlayerDeckCards()
-        {
-            // generate each of the picture boxes on the form
-            GenerateDeckCard(23, 30);
-            GenerateDeckCard(100, 30);
-            GenerateDeckCard(177, 30);
-
-        }
         private void frmSimplified21_Load(object sender, EventArgs e)
         {
 
@@ -61,7 +31,6 @@ namespace Simplified21ToluA_6b_
 
         private void btnStart_Click(object sender, EventArgs e)
         {
-            GeneratePlayerDeckCards();
             int randomIndex;
 
 
@@ -134,208 +103,258 @@ namespace Simplified21ToluA_6b_
             else if (randomIndex == 1)
             {
                 Card.Insert(randomIndex, Properties.Resources.c02);
+                Card.RemoveAt(1);
             }
             else if (randomIndex == 2)
             {
                 Card.Insert(randomIndex, Properties.Resources.c03);
+                Card.RemoveAt(2);
             }
             else if (randomIndex == 3)
             {
                 Card.Insert(randomIndex, Properties.Resources.c04);
+                Card.RemoveAt(3);
             }
             else if (randomIndex == 4)
             {
                 Card.Insert(randomIndex, Properties.Resources.c05);
+                Card.RemoveAt(4);
             }
             else if (randomIndex == 5)
             {
                 Card.Insert(randomIndex, Properties.Resources.c06);
+                Card.RemoveAt(5);
             }
             
             else if (randomIndex == 6)
             {
                 Card.Insert(randomIndex, Properties.Resources.c07);
+                Card.RemoveAt(6);
             }
             else if (randomIndex == 7)
             {
                 Card.Insert(randomIndex, Properties.Resources.c08);
+                Card.RemoveAt(7);
             }
             else if (randomIndex == 8)
             {
                 Card.Insert(randomIndex, Properties.Resources.c09);
+                Card.RemoveAt(8);
             }
             else if (randomIndex == 9)
             {
                 Card.Insert(randomIndex, Properties.Resources.c10);
+                Card.RemoveAt(9);
             }
             else if (randomIndex == 10)
             {
                 Card.Insert(randomIndex, Properties.Resources.c11);
+                Card.RemoveAt(10);
             }
             else if (randomIndex == 11)
             {
                 Card.Insert(randomIndex, Properties.Resources.c12);
+                Card.RemoveAt(11);
             }
             else if (randomIndex == 12)
             {
                 Card.Insert(randomIndex, Properties.Resources.c13);
+                Card.RemoveAt(12);
             }
             else if (randomIndex == 13)
             {
                 Card.Insert(randomIndex, Properties.Resources.d01);
+                Card.RemoveAt(13);
             }
-            /*
             else if (randomIndex == 14)
             {
-                this.picFirstPlayerCard.Image = Properties.Resources.d02;
+                Card.Insert(randomIndex, Properties.Resources.d02);
+                Card.RemoveAt(14);
             }
             else if (randomIndex == 15)
             {
-                this.picFirstPlayerCard.Image = Properties.Resources.d03;
+                Card.Insert(randomIndex, Properties.Resources.d03);
+                Card.RemoveAt(15);
             }
             else if (randomIndex == 16)
             {
-                this.picFirstPlayerCard.Image = Properties.Resources.d04;
+                Card.Insert(randomIndex, Properties.Resources.d04);
+                Card.RemoveAt(16);
             }
             else if (randomIndex == 17)
             {
-                this.picFirstPlayerCard.Image = Properties.Resources.d05;
+                Card.Insert(randomIndex, Properties.Resources.d05);
+                Card.RemoveAt(17);
             }
             else if (randomIndex == 18)
             {
-                this.picFirstPlayerCard.Image = Properties.Resources.d06;
+               Card.Insert(randomIndex, Properties.Resources.d06);
+                Card.RemoveAt(18);
             }
             else if (randomIndex == 19)
             {
-                this.picFirstPlayerCard.Image = Properties.Resources.d07;
+                Card.Insert(randomIndex, Properties.Resources.d07);
+                Card.RemoveAt(19);
             }
             else if (randomIndex == 20)
             {
-                this.picFirstPlayerCard.Image = Properties.Resources.d08;
+                Card.Insert(randomIndex, Properties.Resources.d08);
+                Card.RemoveAt(20);
             }
             else if (randomIndex == 21)
             {
-                this.picFirstPlayerCard.Image = Properties.Resources.d09;
+                Card.Insert(randomIndex, Properties.Resources.d09);
+                Card.RemoveAt(21);
             }
             else if (randomIndex == 22)
             {
-                this.picFirstPlayerCard.Image = Properties.Resources.d10;
+                Card.Insert(randomIndex, Properties.Resources.d10);
+                Card.RemoveAt(22);
             }
             else if (randomIndex == 23)
             {
-                this.picFirstPlayerCard.Image = Properties.Resources.d11;
+                Card.Insert(randomIndex, Properties.Resources.d11);
+                Card.RemoveAt(23);
             }
             else if (randomIndex == 24)
             {
-                this.picFirstPlayerCard.Image = Properties.Resources.d12;
+                Card.Insert(randomIndex, Properties.Resources.d12);
+                Card.RemoveAt(24);
             }
             else if (randomIndex == 25)
             {
-                this.picFirstPlayerCard.Image = Properties.Resources.d13;
+                Card.Insert(randomIndex, Properties.Resources.d13);
+                Card.RemoveAt(25);
             }
             else if (randomIndex == 26)
             {
-                this.picFirstPlayerCard.Image = Properties.Resources.h01;
+                Card.Insert(randomIndex, Properties.Resources.h01);
+                Card.RemoveAt(26);
             }
             else if (randomIndex == 27)
             {
-                this.picFirstPlayerCard.Image = Properties.Resources.h02;
+                Card.Insert(randomIndex, Properties.Resources.h02);
+                Card.RemoveAt(27);
             }
             else if (randomIndex == 28)
             {
-                this.picFirstPlayerCard.Image = Properties.Resources.h03;
+                Card.Insert(randomIndex, Properties.Resources.h03);
+                Card.RemoveAt(28);
             }
             else if (randomIndex == 29)
             {
-                this.picFirstPlayerCard.Image = Properties.Resources.h04;
+                Card.Insert(randomIndex, Properties.Resources.h04);
+                Card.RemoveAt(29);
             }
             else if (randomIndex == 30)
             {
-                this.picFirstPlayerCard.Image = Properties.Resources.h05;
+                Card.Insert(randomIndex, Properties.Resources.h05);
+                Card.RemoveAt(30);
             }
             else if (randomIndex == 31)
             {
-                this.picFirstPlayerCard.Image = Properties.Resources.h06;
+                Card.Insert(randomIndex, Properties.Resources.h06);
+                Card.RemoveAt(31);
             }
             else if (randomIndex == 32)
             {
-                this.picFirstPlayerCard.Image = Properties.Resources.h07;
+                Card.Insert(randomIndex, Properties.Resources.h07);
+                Card.RemoveAt(32);
             }
             else if (randomIndex == 33)
             {
-                this.picFirstPlayerCard.Image = Properties.Resources.h08;
+                Card.Insert(randomIndex, Properties.Resources.h08);
+                Card.RemoveAt(33);
             }
             else if (randomIndex == 34)
             {
-                this.picFirstPlayerCard.Image = Properties.Resources.h09;
+                Card.Insert(randomIndex, Properties.Resources.h09);
+                Card.RemoveAt(34);
             }
             else if (randomIndex == 35)
             {
-                this.picFirstPlayerCard.Image = Properties.Resources.h10;
+                Card.Insert(randomIndex, Properties.Resources.h10);
+                Card.RemoveAt(35);
             }
             else if (randomIndex == 36)
             {
-                this.picFirstPlayerCard.Image = Properties.Resources.h11;
+                Card.Insert(randomIndex, Properties.Resources.h11);
+                Card.RemoveAt(36);
             }
             else if (randomIndex == 37)
             {
-                this.picFirstPlayerCard.Image = Properties.Resources.h12;
+                Card.Insert(randomIndex, Properties.Resources.h12);
+                Card.RemoveAt(37);
             }
             else if (randomIndex == 38)
             {
-                this.picFirstPlayerCard.Image = Properties.Resources.h13;
+                Card.Insert(randomIndex, Properties.Resources.h13);
+                Card.RemoveAt(38);
             }
             else if (randomIndex == 39)
             {
-                this.picFirstPlayerCard.Image = Properties.Resources.s01;
+                Card.Insert(randomIndex, Properties.Resources.s01);
+                Card.RemoveAt(39);
             }
             else if (randomIndex == 40)
             {
-                this.picFirstPlayerCard.Image = Properties.Resources.s02;
+                Card.Insert(randomIndex, Properties.Resources.s02);
+                Card.RemoveAt(40);
             }
             else if (randomIndex == 41)
             {
-                this.picFirstPlayerCard.Image = Properties.Resources.s03;
+                Card.Insert(randomIndex, Properties.Resources.s03);
+                Card.RemoveAt(41);
             }
             else if (randomIndex == 42)
             {
-                this.picFirstPlayerCard.Image = Properties.Resources.s04;
+                Card.Insert(randomIndex, Properties.Resources.s04);
+                Card.RemoveAt(42);
             }
             else if (randomIndex == 43)
             {
-                this.picFirstPlayerCard.Image = Properties.Resources.s05;
+                Card.Insert(randomIndex, Properties.Resources.s05);
+                Card.RemoveAt(43);
             }
             else if (randomIndex == 44)
             {
-                this.picFirstPlayerCard.Image = Properties.Resources.s06;
+                Card.Insert(randomIndex, Properties.Resources.s06);
+                Card.RemoveAt(44);
             }
             else if (randomIndex == 45)
             {
-                this.picFirstPlayerCard.Image = Properties.Resources.s07;
+                Card.Insert(randomIndex, Properties.Resources.s07);
+                Card.RemoveAt(45);
             }
             else if (randomIndex == 46)
             {
-                this.picFirstPlayerCard.Image = Properties.Resources.s08;
+                Card.Insert(randomIndex, Properties.Resources.s08);
+                Card.RemoveAt(46);
             }
             else if (randomIndex == 47)
             {
-                this.picFirstPlayerCard.Image = Properties.Resources.s09;
+                Card.Insert(randomIndex, Properties.Resources.s09);
+                Card.RemoveAt(47);
             }
             else if (randomIndex == 48)
             {
-                this.picFirstPlayerCard.Image = Properties.Resources.s10;
+                Card.Insert(randomIndex, Properties.Resources.s10);
+                Card.RemoveAt(48);
             }
             else if (randomIndex == 49)
             {
-                this.picFirstPlayerCard.Image = Properties.Resources.s11;
+                Card.Insert(randomIndex, Properties.Resources.s11);
+                Card.RemoveAt(49);
             }
             else if (randomIndex == 50)
             {
-                this.picFirstPlayerCard.Image = Properties.Resources.s12;
+                Card.Insert(randomIndex, Properties.Resources.s12);
+                Card.RemoveAt(50);
             }
             else 
             {
-                this.picFirstPlayerCard.Image = Properties.Resources.s13;
+                Card.Insert(randomIndex, Properties.Resources.s13);
+                Card.RemoveAt(51);
             }
             
 
@@ -344,7 +363,6 @@ namespace Simplified21ToluA_6b_
             //place the image in the given picture box
 
             //
-            */
 
 
         }

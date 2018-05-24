@@ -32,24 +32,36 @@
             this.btnStay = new System.Windows.Forms.Button();
             this.btnRestart = new System.Windows.Forms.Button();
             this.btnStart = new System.Windows.Forms.Button();
+            this.picFirstPlayerCard = new System.Windows.Forms.PictureBox();
+            this.picThirdComputerCard = new System.Windows.Forms.PictureBox();
+            this.picThirdPlayerCard = new System.Windows.Forms.PictureBox();
+            this.picSecondComputerCard = new System.Windows.Forms.PictureBox();
+            this.picFirstComputerCard = new System.Windows.Forms.PictureBox();
+            this.picSecondplayerCard = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.picFirstPlayerCard)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picThirdComputerCard)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picThirdPlayerCard)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picSecondComputerCard)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picFirstComputerCard)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picSecondplayerCard)).BeginInit();
             this.SuspendLayout();
             // 
             // btnHit
             // 
-            this.btnHit.Location = new System.Drawing.Point(9, 148);
-            this.btnHit.Margin = new System.Windows.Forms.Padding(2);
+            this.btnHit.Location = new System.Drawing.Point(12, 182);
+            this.btnHit.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnHit.Name = "btnHit";
-            this.btnHit.Size = new System.Drawing.Size(56, 19);
+            this.btnHit.Size = new System.Drawing.Size(75, 23);
             this.btnHit.TabIndex = 0;
             this.btnHit.Text = "Hit";
             this.btnHit.UseVisualStyleBackColor = true;
             // 
             // btnStay
             // 
-            this.btnStay.Location = new System.Drawing.Point(9, 180);
-            this.btnStay.Margin = new System.Windows.Forms.Padding(2);
+            this.btnStay.Location = new System.Drawing.Point(12, 222);
+            this.btnStay.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnStay.Name = "btnStay";
-            this.btnStay.Size = new System.Drawing.Size(56, 22);
+            this.btnStay.Size = new System.Drawing.Size(75, 27);
             this.btnStay.TabIndex = 1;
             this.btnStay.Text = "Stay";
             this.btnStay.UseVisualStyleBackColor = true;
@@ -57,39 +69,99 @@
             // 
             // btnRestart
             // 
-            this.btnRestart.Location = new System.Drawing.Point(435, 337);
-            this.btnRestart.Margin = new System.Windows.Forms.Padding(2);
+            this.btnRestart.Location = new System.Drawing.Point(580, 415);
+            this.btnRestart.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnRestart.Name = "btnRestart";
-            this.btnRestart.Size = new System.Drawing.Size(56, 19);
+            this.btnRestart.Size = new System.Drawing.Size(75, 23);
             this.btnRestart.TabIndex = 2;
             this.btnRestart.Text = "Restart";
             this.btnRestart.UseVisualStyleBackColor = true;
             // 
             // btnStart
             // 
-            this.btnStart.Location = new System.Drawing.Point(435, 10);
-            this.btnStart.Margin = new System.Windows.Forms.Padding(2);
+            this.btnStart.Location = new System.Drawing.Point(580, 12);
+            this.btnStart.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnStart.Name = "btnStart";
-            this.btnStart.Size = new System.Drawing.Size(56, 19);
+            this.btnStart.Size = new System.Drawing.Size(75, 23);
             this.btnStart.TabIndex = 3;
             this.btnStart.Text = "Start";
             this.btnStart.UseVisualStyleBackColor = true;
             this.btnStart.Click += new System.EventHandler(this.btnStart_Click);
             // 
+            // picFirstPlayerCard
+            // 
+            this.picFirstPlayerCard.Location = new System.Drawing.Point(40, 21);
+            this.picFirstPlayerCard.Name = "picFirstPlayerCard";
+            this.picFirstPlayerCard.Size = new System.Drawing.Size(82, 126);
+            this.picFirstPlayerCard.TabIndex = 4;
+            this.picFirstPlayerCard.TabStop = false;
+            // 
+            // picThirdComputerCard
+            // 
+            this.picThirdComputerCard.Location = new System.Drawing.Point(338, 278);
+            this.picThirdComputerCard.Name = "picThirdComputerCard";
+            this.picThirdComputerCard.Size = new System.Drawing.Size(82, 126);
+            this.picThirdComputerCard.TabIndex = 5;
+            this.picThirdComputerCard.TabStop = false;
+            // 
+            // picThirdPlayerCard
+            // 
+            this.picThirdPlayerCard.Location = new System.Drawing.Point(338, 21);
+            this.picThirdPlayerCard.Name = "picThirdPlayerCard";
+            this.picThirdPlayerCard.Size = new System.Drawing.Size(82, 126);
+            this.picThirdPlayerCard.TabIndex = 6;
+            this.picThirdPlayerCard.TabStop = false;
+            // 
+            // picSecondComputerCard
+            // 
+            this.picSecondComputerCard.Location = new System.Drawing.Point(189, 278);
+            this.picSecondComputerCard.Name = "picSecondComputerCard";
+            this.picSecondComputerCard.Size = new System.Drawing.Size(82, 126);
+            this.picSecondComputerCard.TabIndex = 7;
+            this.picSecondComputerCard.TabStop = false;
+            // 
+            // picFirstComputerCard
+            // 
+            this.picFirstComputerCard.Location = new System.Drawing.Point(40, 278);
+            this.picFirstComputerCard.Name = "picFirstComputerCard";
+            this.picFirstComputerCard.Size = new System.Drawing.Size(82, 126);
+            this.picFirstComputerCard.TabIndex = 8;
+            this.picFirstComputerCard.TabStop = false;
+            // 
+            // picSecondplayerCard
+            // 
+            this.picSecondplayerCard.Location = new System.Drawing.Point(189, 21);
+            this.picSecondplayerCard.Name = "picSecondplayerCard";
+            this.picSecondplayerCard.Size = new System.Drawing.Size(82, 126);
+            this.picSecondplayerCard.TabIndex = 9;
+            this.picSecondplayerCard.TabStop = false;
+            // 
             // frmSimplified21
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightGreen;
-            this.ClientSize = new System.Drawing.Size(500, 366);
+            this.ClientSize = new System.Drawing.Size(667, 450);
+            this.Controls.Add(this.picSecondplayerCard);
+            this.Controls.Add(this.picFirstComputerCard);
+            this.Controls.Add(this.picSecondComputerCard);
+            this.Controls.Add(this.picThirdPlayerCard);
+            this.Controls.Add(this.picThirdComputerCard);
+            this.Controls.Add(this.picFirstPlayerCard);
             this.Controls.Add(this.btnStart);
             this.Controls.Add(this.btnRestart);
             this.Controls.Add(this.btnStay);
             this.Controls.Add(this.btnHit);
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "frmSimplified21";
             this.Text = "Simplified 21";
             this.Load += new System.EventHandler(this.frmSimplified21_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.picFirstPlayerCard)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picThirdComputerCard)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picThirdPlayerCard)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picSecondComputerCard)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picFirstComputerCard)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picSecondplayerCard)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -100,6 +172,12 @@
         private System.Windows.Forms.Button btnStay;
         private System.Windows.Forms.Button btnRestart;
         private System.Windows.Forms.Button btnStart;
+        private System.Windows.Forms.PictureBox picFirstPlayerCard;
+        private System.Windows.Forms.PictureBox picThirdComputerCard;
+        private System.Windows.Forms.PictureBox picThirdPlayerCard;
+        private System.Windows.Forms.PictureBox picSecondComputerCard;
+        private System.Windows.Forms.PictureBox picFirstComputerCard;
+        private System.Windows.Forms.PictureBox picSecondplayerCard;
     }
 }
 

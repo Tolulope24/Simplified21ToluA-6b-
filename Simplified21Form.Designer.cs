@@ -48,20 +48,20 @@
             // 
             // btnHit
             // 
-            this.btnHit.Location = new System.Drawing.Point(12, 182);
-            this.btnHit.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnHit.Location = new System.Drawing.Point(9, 148);
+            this.btnHit.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnHit.Name = "btnHit";
-            this.btnHit.Size = new System.Drawing.Size(75, 23);
+            this.btnHit.Size = new System.Drawing.Size(56, 19);
             this.btnHit.TabIndex = 0;
             this.btnHit.Text = "Hit";
             this.btnHit.UseVisualStyleBackColor = true;
             // 
             // btnStay
             // 
-            this.btnStay.Location = new System.Drawing.Point(12, 222);
-            this.btnStay.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnStay.Location = new System.Drawing.Point(9, 180);
+            this.btnStay.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnStay.Name = "btnStay";
-            this.btnStay.Size = new System.Drawing.Size(75, 27);
+            this.btnStay.Size = new System.Drawing.Size(56, 22);
             this.btnStay.TabIndex = 1;
             this.btnStay.Text = "Stay";
             this.btnStay.UseVisualStyleBackColor = true;
@@ -69,20 +69,20 @@
             // 
             // btnRestart
             // 
-            this.btnRestart.Location = new System.Drawing.Point(580, 415);
-            this.btnRestart.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnRestart.Location = new System.Drawing.Point(435, 337);
+            this.btnRestart.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnRestart.Name = "btnRestart";
-            this.btnRestart.Size = new System.Drawing.Size(75, 23);
+            this.btnRestart.Size = new System.Drawing.Size(56, 19);
             this.btnRestart.TabIndex = 2;
             this.btnRestart.Text = "Restart";
             this.btnRestart.UseVisualStyleBackColor = true;
             // 
             // btnStart
             // 
-            this.btnStart.Location = new System.Drawing.Point(580, 12);
-            this.btnStart.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnStart.Location = new System.Drawing.Point(435, 10);
+            this.btnStart.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnStart.Name = "btnStart";
-            this.btnStart.Size = new System.Drawing.Size(75, 23);
+            this.btnStart.Size = new System.Drawing.Size(56, 19);
             this.btnStart.TabIndex = 3;
             this.btnStart.Text = "Start";
             this.btnStart.UseVisualStyleBackColor = true;
@@ -90,58 +90,71 @@
             // 
             // picFirstPlayerCard
             // 
-            this.picFirstPlayerCard.Location = new System.Drawing.Point(40, 21);
+            this.picFirstPlayerCard.Location = new System.Drawing.Point(30, 17);
+            this.picFirstPlayerCard.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picFirstPlayerCard.Name = "picFirstPlayerCard";
-            this.picFirstPlayerCard.Size = new System.Drawing.Size(82, 126);
+            this.picFirstPlayerCard.Size = new System.Drawing.Size(62, 102);
+            this.picFirstPlayerCard.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.picFirstPlayerCard.TabIndex = 4;
             this.picFirstPlayerCard.TabStop = false;
             // 
             // picThirdComputerCard
             // 
-            this.picThirdComputerCard.Location = new System.Drawing.Point(338, 278);
+            this.picThirdComputerCard.Location = new System.Drawing.Point(254, 226);
+            this.picThirdComputerCard.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picThirdComputerCard.Name = "picThirdComputerCard";
-            this.picThirdComputerCard.Size = new System.Drawing.Size(82, 126);
+            this.picThirdComputerCard.Size = new System.Drawing.Size(62, 102);
+            this.picThirdComputerCard.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.picThirdComputerCard.TabIndex = 5;
             this.picThirdComputerCard.TabStop = false;
             // 
             // picThirdPlayerCard
             // 
-            this.picThirdPlayerCard.Location = new System.Drawing.Point(338, 21);
+            this.picThirdPlayerCard.Location = new System.Drawing.Point(254, 17);
+            this.picThirdPlayerCard.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picThirdPlayerCard.Name = "picThirdPlayerCard";
-            this.picThirdPlayerCard.Size = new System.Drawing.Size(82, 126);
+            this.picThirdPlayerCard.Size = new System.Drawing.Size(71, 96);
+            this.picThirdPlayerCard.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.picThirdPlayerCard.TabIndex = 6;
             this.picThirdPlayerCard.TabStop = false;
+            this.picThirdPlayerCard.Click += new System.EventHandler(this.picThirdPlayerCard_Click);
             // 
             // picSecondComputerCard
             // 
-            this.picSecondComputerCard.Location = new System.Drawing.Point(189, 278);
+            this.picSecondComputerCard.Location = new System.Drawing.Point(142, 226);
+            this.picSecondComputerCard.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picSecondComputerCard.Name = "picSecondComputerCard";
-            this.picSecondComputerCard.Size = new System.Drawing.Size(82, 126);
+            this.picSecondComputerCard.Size = new System.Drawing.Size(62, 102);
+            this.picSecondComputerCard.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.picSecondComputerCard.TabIndex = 7;
             this.picSecondComputerCard.TabStop = false;
             // 
             // picFirstComputerCard
             // 
-            this.picFirstComputerCard.Location = new System.Drawing.Point(40, 278);
+            this.picFirstComputerCard.Location = new System.Drawing.Point(30, 226);
+            this.picFirstComputerCard.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picFirstComputerCard.Name = "picFirstComputerCard";
-            this.picFirstComputerCard.Size = new System.Drawing.Size(82, 126);
+            this.picFirstComputerCard.Size = new System.Drawing.Size(62, 102);
+            this.picFirstComputerCard.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.picFirstComputerCard.TabIndex = 8;
             this.picFirstComputerCard.TabStop = false;
             // 
             // picSecondplayerCard
             // 
-            this.picSecondplayerCard.Location = new System.Drawing.Point(189, 21);
+            this.picSecondplayerCard.Location = new System.Drawing.Point(142, 17);
+            this.picSecondplayerCard.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picSecondplayerCard.Name = "picSecondplayerCard";
-            this.picSecondplayerCard.Size = new System.Drawing.Size(82, 126);
+            this.picSecondplayerCard.Size = new System.Drawing.Size(62, 102);
+            this.picSecondplayerCard.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.picSecondplayerCard.TabIndex = 9;
             this.picSecondplayerCard.TabStop = false;
             // 
             // frmSimplified21
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightGreen;
-            this.ClientSize = new System.Drawing.Size(667, 450);
+            this.ClientSize = new System.Drawing.Size(500, 366);
             this.Controls.Add(this.picSecondplayerCard);
             this.Controls.Add(this.picFirstComputerCard);
             this.Controls.Add(this.picSecondComputerCard);
@@ -152,7 +165,7 @@
             this.Controls.Add(this.btnRestart);
             this.Controls.Add(this.btnStay);
             this.Controls.Add(this.btnHit);
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "frmSimplified21";
             this.Text = "Simplified 21";
             this.Load += new System.EventHandler(this.frmSimplified21_Load);
@@ -163,6 +176,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.picFirstComputerCard)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picSecondplayerCard)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 

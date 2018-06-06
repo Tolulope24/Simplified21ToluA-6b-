@@ -21,6 +21,7 @@ namespace Simplified21ToluA_6b_
             picThirdComputerCard.Hide();
 
         }
+        int Values;
         int randomIndex;
         int secondRandomIndex;
         int thirdRandomIndex;
@@ -33,6 +34,9 @@ namespace Simplified21ToluA_6b_
         float sumComputerCard;
 
         List<Image> Card = new List<Image>();
+
+        
+
 
         private void frmSimplified21_Load(object sender, EventArgs e)
         {
@@ -107,315 +111,314 @@ namespace Simplified21ToluA_6b_
             randomIndex = randomCardIndex.Next(0, Card.Count-1);
             if (randomIndex == 0)
             {
-                randomIndex = 1;
+                Values = 1;
                 Card.Insert (randomIndex,Properties.Resources.c01);
                 Card.RemoveAt(0);
             }
             else if (randomIndex == 1)
             {
-                randomIndex = 2;
+                Values = 2;
                 Card.Insert(randomIndex, Properties.Resources.c02);
                 Card.RemoveAt(1);
             }
             else if (randomIndex == 2)
             {
-                randomIndex = 3;
+                Values = 3;
                 Card.Insert(randomIndex, Properties.Resources.c03);
                 Card.RemoveAt(2);
             }
             else if (randomIndex == 3)
             {
                 Card.Insert(randomIndex, Properties.Resources.c04);
-                randomIndex = 4;
+                Values = 4;
                 Card.RemoveAt(3);
             }
             else if (randomIndex == 4)
             {
                 Card.Insert(randomIndex, Properties.Resources.c05);
-                randomIndex = 5;
+                Values = 5;
                 Card.RemoveAt(4);
             }
             else if (randomIndex == 5)
             {
                 Card.Insert(randomIndex, Properties.Resources.c06);
-                randomIndex = 6;
+                Values = 6;
                 Card.RemoveAt(5);
             }
             
             else if (randomIndex == 6)
             {
                 Card.Insert(randomIndex, Properties.Resources.c07);
-                randomIndex = 7;
+                Values = 7;
                 Card.RemoveAt(6);
             }
             else if (randomIndex == 7)
             {
                 Card.Insert(randomIndex, Properties.Resources.c08);
-                randomIndex = 8;
+                Values = 8;
                 Card.RemoveAt(7);
             }
             else if (randomIndex == 8)
             {
                 Card.Insert(randomIndex, Properties.Resources.c09);
-                randomIndex = 9;
+                Values = 9;
                 Card.RemoveAt(8);
             }
             else if (randomIndex == 9)
             {
                 Card.Insert(randomIndex, Properties.Resources.c10);
-                randomIndex = 10;
+                Values = 10;
                 Card.RemoveAt(9);
             }
             else if (randomIndex == 10)
             {
                 Card.Insert(randomIndex, Properties.Resources.c11);
-                randomIndex = 11;
-
+                Values = 11;
                 Card.RemoveAt(10);
             }
             else if (randomIndex == 11)
             {
                 Card.Insert(randomIndex, Properties.Resources.c12);
-                randomIndex = 12;
+                Values = 12;
                 Card.RemoveAt(11);
             }
             else if (randomIndex == 12)
             {
                 Card.Insert(randomIndex, Properties.Resources.c13);
-                randomIndex = 13;
+                Values = 13;
                 Card.RemoveAt(12);
             }
             else if (randomIndex == 13)
             {
                 Card.Insert(randomIndex, Properties.Resources.d01);
-                randomIndex = 1;
+                Values = 1;
                 Card.RemoveAt(13);
             }
             else if (randomIndex == 14)
             {
                 Card.Insert(randomIndex, Properties.Resources.d02);
-                randomIndex = 2;
+                Values = 2;
                 Card.RemoveAt(14);
             }
             else if (randomIndex == 15)
             {
                 Card.Insert(randomIndex, Properties.Resources.d03);
-                randomIndex = 3;
+                Values = 3;
                 Card.RemoveAt(15);
             }
             else if (randomIndex == 16)
             {
                 Card.Insert(randomIndex, Properties.Resources.d04);
-                randomIndex = 4;
+                Values = 4;
                 Card.RemoveAt(16);
             }
             else if (randomIndex == 17)
             {
                 Card.Insert(randomIndex, Properties.Resources.d05);
-                randomIndex = 5;
+                Values = 5;
                 Card.RemoveAt(17);
             }
             else if (randomIndex == 18)
             {
                Card.Insert(randomIndex, Properties.Resources.d06);
-                randomIndex = 6;
+                Values = 6;
                 Card.RemoveAt(18);
             }
             else if (randomIndex == 19)
             {
                 Card.Insert(randomIndex, Properties.Resources.d07);
-                randomIndex = 7;
+                Values = 7;
                 Card.RemoveAt(19);
             }
             else if (randomIndex == 20)
             {
                 Card.Insert(randomIndex, Properties.Resources.d08);
-                randomIndex = 8;
+                Values = 8;
                 Card.RemoveAt(20);
             }
             else if (randomIndex == 21)
             {
                 Card.Insert(randomIndex, Properties.Resources.d09);
-                randomIndex = 9;
+                Values = 9;
                 Card.RemoveAt(21);
             }
             else if (randomIndex == 22)
             {
                 Card.Insert(randomIndex, Properties.Resources.d10);
-                randomIndex = 10;
+                Values = 10;
                 Card.RemoveAt(22);
             }
             else if (randomIndex == 23)
             {
                 Card.Insert(randomIndex, Properties.Resources.d11);
-                randomIndex = 11;
+                Values = 11;
                 Card.RemoveAt(23);
             }
             else if (randomIndex == 24)
             {
                 Card.Insert(randomIndex, Properties.Resources.d12);
-                randomIndex = 12;
+                Values = 12;
                 Card.RemoveAt(24);
             }
             else if (randomIndex == 25)
             {
                 Card.Insert(randomIndex, Properties.Resources.d13);
-                randomIndex = 13;
+                Values = 13;
                 Card.RemoveAt(25);
             }
             else if (randomIndex == 26)
             {
                 Card.Insert(randomIndex, Properties.Resources.h01);
-                randomIndex = 1;
+                Values = 1;
                 Card.RemoveAt(26);
             }
             else if (randomIndex == 27)
             {
                 Card.Insert(randomIndex, Properties.Resources.h02);
-                randomIndex = 2;
+                Values = 2;
                 Card.RemoveAt(27);
             }
             else if (randomIndex == 28)
             {
                 Card.Insert(randomIndex, Properties.Resources.h03);
-                randomIndex = 3;
+                Values = 3;
                 Card.RemoveAt(28);
             }
             else if (randomIndex == 29)
             {
                 Card.Insert(randomIndex, Properties.Resources.h04);
-                randomIndex = 4;
+                Values = 4;
                 Card.RemoveAt(29);
             }
             else if (randomIndex == 30)
             {
                 Card.Insert(randomIndex, Properties.Resources.h05);
-                randomIndex = 5;
+                Values = 5;
                 Card.RemoveAt(30);
             }
             else if (randomIndex == 31)
             {
                 Card.Insert(randomIndex, Properties.Resources.h06);
-                randomIndex = 6;
+                Values = 6;
                 Card.RemoveAt(31);
             }
             else if (randomIndex == 32)
             {
                 Card.Insert(randomIndex, Properties.Resources.h07);
-                randomIndex = 7;
+                Values = 7;
                 Card.RemoveAt(32);
             }
             else if (randomIndex == 33)
             {
                 Card.Insert(randomIndex, Properties.Resources.h08);
-                randomIndex = 8;
+                Values = 8;
                 Card.RemoveAt(33);
             }
             else if (randomIndex == 34)
             {
                 Card.Insert(randomIndex, Properties.Resources.h09);
-                randomIndex = 9;
+                Values = 9;
                 Card.RemoveAt(34);
             }
             else if (randomIndex == 35)
             {
                 Card.Insert(randomIndex, Properties.Resources.h10);
-                randomIndex = 10;
+                Values = 10;
                 Card.RemoveAt(35);
             }
             else if (randomIndex == 36)
             {
                 Card.Insert(randomIndex, Properties.Resources.h11);
-                randomIndex = 11;
+                Values = 11;
                 Card.RemoveAt(36);
             }
             else if (randomIndex == 37)
             {
                 Card.Insert(randomIndex, Properties.Resources.h12);
-                randomIndex = 12;
+                Values = 12;
                 Card.RemoveAt(37);
             }
             else if (randomIndex == 38)
             {
                 Card.Insert(randomIndex, Properties.Resources.h13);
-                randomIndex = 13;
+                Values = 13;
                 Card.RemoveAt(38);
             }
             else if (randomIndex == 39)
             {
                 Card.Insert(randomIndex, Properties.Resources.s01);
-                randomIndex = 1;
+                Values = 1;
                 Card.RemoveAt(39);
             }
             else if (randomIndex == 40)
             {
                 Card.Insert(randomIndex, Properties.Resources.s02);
-                randomIndex = 2;
+                Values = 2;
                 Card.RemoveAt(40);
             }
             else if (randomIndex == 41)
             {
                 Card.Insert(randomIndex, Properties.Resources.s03);
-                randomIndex = 3;
+                Values = 3;
                 Card.RemoveAt(41);
             }
             else if (randomIndex == 42)
             {
                 Card.Insert(randomIndex, Properties.Resources.s04);
-                randomIndex = 4;
+                Values = 4;
                 Card.RemoveAt(42);
             }
             else if (randomIndex == 43)
             {
                 Card.Insert(randomIndex, Properties.Resources.s05);
-                randomIndex = 5;
+                Values = 5;
                 Card.RemoveAt(43);
             }
             else if (randomIndex == 44)
             {
                 Card.Insert(randomIndex, Properties.Resources.s06);
-                randomIndex = 6;
+                Values = 6;
                 Card.RemoveAt(44);
             }
             else if (randomIndex == 45)
             {
-                randomIndex = 7;
+                Values = 7;
                 Card.Insert(randomIndex, Properties.Resources.s07);
                 Card.RemoveAt(45);
             }
             else if (randomIndex == 46)
             {
-                randomIndex = 8;
+                Values = 8;
                 Card.Insert(randomIndex, Properties.Resources.s08);
                 Card.RemoveAt(46);
             }
             else if (randomIndex == 47)
             {
                 Card.Insert(randomIndex, Properties.Resources.s09);
-                randomIndex = 9;
+                Values = 9;
                 Card.RemoveAt(47);
             }
             else if (randomIndex == 48)
             {
-                randomIndex = 10;
+                Values = 10;
                 Card.Insert(randomIndex, Properties.Resources.s10);
                 Card.RemoveAt(48);
             }
             else if (randomIndex == 49)
             {
-                randomIndex = 11;
+                Values = 11;
                 Card.Insert(randomIndex, Properties.Resources.s11);
                 Card.RemoveAt(49);
             }
             else if (randomIndex == 50)
             {
-                randomIndex = 12;
+                Values = 12;
                 Card.Insert(randomIndex, Properties.Resources.s12);
                 Card.RemoveAt(50);
             }
             else 
             {
-                randomIndex = 13;
+                Values = 13;
                 Card.Insert(randomIndex, Properties.Resources.s13);
                 Card.RemoveAt(51);
             }
@@ -427,80 +430,80 @@ namespace Simplified21ToluA_6b_
 
              if (secondRandomIndex == 0)
             {
-                secondRandomIndex = 1;
+                Values = 1;
                 Card.Insert (secondRandomIndex, Properties.Resources.c01);
                 Card.RemoveAt(0);
             }
             else if (secondRandomIndex == 1)
             {
-                secondRandomIndex = 2;
+                Values = 2;
                 Card.Insert(secondRandomIndex, Properties.Resources.c02);
                 Card.RemoveAt(1);
             }
             else if (secondRandomIndex == 2)
             {
-                secondRandomIndex = 3;
+                Values = 3;
                 Card.Insert(secondRandomIndex, Properties.Resources.c03);
                 Card.RemoveAt(2);
             }
             else if (secondRandomIndex == 3)
             {
-                secondRandomIndex = 4;
+                Values = 4;
                 Card.Insert(secondRandomIndex, Properties.Resources.c04);
                 Card.RemoveAt(3);
             }
             else if (secondRandomIndex == 4)
             {
-                secondRandomIndex = 5;
+                Values = 5;
                 Card.Insert(randomIndex, Properties.Resources.c05);
                 Card.RemoveAt(4);
             }
             else if (secondRandomIndex == 5)
             {
-                secondRandomIndex = 6;
+                Values = 6;
                 Card.Insert(secondRandomIndex, Properties.Resources.c06);
                 Card.RemoveAt(5);
             }
             
             else if (secondRandomIndex == 6)
             {
-                secondRandomIndex = 7;
+                Values = 7;
                 Card.Insert(secondRandomIndex, Properties.Resources.c07);
                 Card.RemoveAt(6);
             }
             else if (secondRandomIndex == 7)
             {
-                secondRandomIndex = 8;
+                Values = 8;
                 Card.Insert(secondRandomIndex, Properties.Resources.c08);
                 Card.RemoveAt(7);
             }
             else if (secondRandomIndex == 8)
             {
-                secondRandomIndex = 9;
+                Values = 9;
                 Card.Insert(secondRandomIndex, Properties.Resources.c09);
                 Card.RemoveAt(8);
             }
             else if (secondRandomIndex == 9)
             {
-                secondRandomIndex = 10;
+                Values = 10;
                 Card.Insert(secondRandomIndex, Properties.Resources.c10);
                 Card.RemoveAt(9);
             }
             else if (secondRandomIndex == 10)
             {
-                secondRandomIndex = 11;
+                Values = 11;
                 Card.Insert(secondRandomIndex, Properties.Resources.c11);
                 Card.RemoveAt(10);
             }
             else if (secondRandomIndex == 11)
             {
-                secondRandomIndex = 12;
+                Values = 12;
                 Card.Insert(secondRandomIndex, Properties.Resources.c12);
                 Card.RemoveAt(11);
             }
             else if (secondRandomIndex == 12)
             {
-                secondRandomIndex = 2;
+                Values = 2;
                 Card.Insert(secondRandomIndex, Properties.Resources.c13);
                 Card.RemoveAt(12);
             }
@@ -1853,73 +1856,73 @@ namespace Simplified21ToluA_6b_
             }
             else if (computerThirdRandomIndex == 40)
             {
-                computerThirdRandomIndex = 2;
+                Values = 2;
                 Card.Insert(computerThirdRandomIndex, Properties.Resources.s02);
                 Card.RemoveAt(40);
             }
             else if (computerThirdRandomIndex == 41)
             {
-                computerThirdRandomIndex = 3;
+                Values = 3;
                 Card.Insert(computerThirdRandomIndex, Properties.Resources.s03);
                 Card.RemoveAt(41);
             }
             else if (randomIndex == 42)
             {
-                computerThirdRandomIndex = 4;
+                Values = 4;
                 Card.Insert(computerThirdRandomIndex, Properties.Resources.s04);
                 Card.RemoveAt(42);
             }
             else if (computerThirdRandomIndex == 43)
             {
-                computerThirdRandomIndex = 5;
+                Values = 5;
                 Card.Insert(computerThirdRandomIndex, Properties.Resources.s05);
                 Card.RemoveAt(43);
             }
             else if (computerThirdRandomIndex == 44)
             {
-                computerThirdRandomIndex = 6;
+                Values = 6;
                 Card.Insert(computerThirdRandomIndex, Properties.Resources.s06);
                 Card.RemoveAt(44);
             }
             else if (computerThirdRandomIndex == 45)
             {
-                computerThirdRandomIndex = 7;
+                Values = 7;
                 Card.Insert(computerThirdRandomIndex, Properties.Resources.s07);
                 Card.RemoveAt(45);
             }
             else if (computerThirdRandomIndex == 46)
             {
-                computerThirdRandomIndex = 8;
+                Values = 8;
                 Card.Insert(computerThirdRandomIndex, Properties.Resources.s08);
                 Card.RemoveAt(46);
             }
             else if (computerThirdRandomIndex == 47)
             {
-                computerThirdRandomIndex = 9;
+                Values = 9;
                 Card.Insert(computerThirdRandomIndex, Properties.Resources.s09);
                 Card.RemoveAt(47);
             }
             else if (computerThirdRandomIndex == 48)
             {
-                computerThirdRandomIndex = 10;
+                Values = 10;
                 Card.Insert(computerThirdRandomIndex, Properties.Resources.s10);
                 Card.RemoveAt(48);
             }
             else if (computerThirdRandomIndex == 49)
             {
-                computerThirdRandomIndex = 11;
+                Values = 11;
                 Card.Insert(computerThirdRandomIndex, Properties.Resources.s11);
                 Card.RemoveAt(49);
             }
             else if (computerThirdRandomIndex == 50)
             {
-                computerThirdRandomIndex = 12;
+                Values = 12;
                 Card.Insert(computerThirdRandomIndex, Properties.Resources.s12);
                 Card.RemoveAt(50);
             }
             else
             {
-                computerThirdRandomIndex = 13;
+                Values = 13;
                 Card.Insert(computerThirdRandomIndex, Properties.Resources.s13);
                 Card.RemoveAt(51);
             }
